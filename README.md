@@ -28,13 +28,13 @@ Arduino code for ...
 
 ### Screenshots
 
-| Emiter-Decoder breadboard                       | Emiter-Decoder output                           |
-|-------------------------------------------------|-------------------------------------------------|
-| ![](Resources/emiter-decoder-breadboard.jpg)    | ![](Resources/emiter-decoder-output.jpg)        |
+| Emiter-Decoder breadboard                                | Emiter-Decoder output                                    |
+|----------------------------------------------------------|----------------------------------------------------------|
+| ![](ir-emiter-decoder/emiter-decoder-breadboard.jpg)     | ![](ir-emiter-decoder/emiter-decoder-output.jpg)         |
 
-| Receiver-Scanner breadboard                     | Receiver-Scanner output                         |
-|-------------------------------------------------|-------------------------------------------------|
-| ![](Resources/receiver-scanner-breadboard.jpg)  | ![](Resources/receiver-scanner-output.jpg)      |
+| Receiver-Scanner breadboard                              | Receiver-Scanner output                                  |
+|----------------------------------------------------------|----------------------------------------------------------|
+| ![](ir-receiver-scanner/receiver-scanner-breadboard.jpg) | ![](ir-receiver-scanner/receiver-scanner-output.jpg)     |
 
 See 'Rescources' sub-folder for details.
 
