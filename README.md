@@ -1,75 +1,48 @@
-# LC Meter v2.0
+# IR Remote Control Utilities
 
-A Capacimeter + Inductometer based on Arduino Nano.  
-Capacitor measurement with 3 working modes: accuracy (slow), balanced and speed.  
-
-Case 3D model included ;-)
-
-This proyect was inspired on video [Medidor de Bobinas/Inductores y Capacitores con Arduino y Display LCD](https://www.youtube.com/watch?v=hMa-AWyuxaA) (spanish) from [Electgpl](https://www.youtube.com/@electgpl) YouTube channel.
+Arduino utilities for Infrared (IR) Remote Control protocols and codes.
 
 &nbsp;
 
 This project use the following electronic components:
 - 1 x Arduino Nano v3.0
-- 1 x LCD Display 16x2
-- 1 x LCD Display I2C Module
-- 1 x LM358 Operational Amplifier
-- 1 x Capacitor 1uF
-- 1 x Switch Button (2 positions)
-- 3 x Push Button
+- 1 x Breadboard
+- 1 x IR LED Emiter
+- 1 x IR LED Receiver
 - 1 x 220 ohm resistor
-- 1 x 470 ohm resistor
-- 1 x 10K ohm resistor
-- 1 x 100K ohm resistor
-- 1 x 1M ohm resistor
-- 14 x pin-header 90 degress
-- 2 x Bornier x2 (optional)
-- 1 x DC conector (optional power 5-12V)
-- 2 x Alligator clip conector (optional external measurement)
 - wires
 
+&nbsp;
+
+### IR-Remote-Control-Emiter-Decoder
+
+Arduino code for ...
+
+&nbsp;
+
+### IR-Remote-Control-Receiver-Scanner
+
+Arduino code for ...
 
 &nbsp;
 
 ### Screenshots
 
-| Diagram - Schematics                            | Diagram - PCB                                   |
+| Emiter-Decoder breadboard                       | Emiter-Decoder output                           |
 |-------------------------------------------------|-------------------------------------------------|
-| ![](Resources/01-schematic-diagram.png)         | ![](Resources/02-pcb-diagram.png)               |
+| ![](Resources/emiter-decoder-breadboard.jpg)    | ![](Resources/emiter-decoder-output.jpg)        |
 
-| Diagram - PCB Render                            | Diagram - PCB Render                            |
+| Receiver-Scanner breadboard                     | Receiver-Scanner output                         |
 |-------------------------------------------------|-------------------------------------------------|
-| ![](Resources/03-pcb-render-front-side.png)     | ![](Resources/04-pcb-render-back-side.png)      |
+| ![](Resources/receiver-scanner-breadboard.jpg)  | ![](Resources/emiter-decoder-output.jpg)        |
 
-| Prototype                                       | Prototype                                       |
-|-------------------------------------------------|-------------------------------------------------|
-| ![](Resources/05-prototype.jpg)                 | ![](Resources/06-prototype.jpg)                 |
-
-| PCB Manufacturing                               | Project Assembly                                |
-|-------------------------------------------------|-------------------------------------------------|
-| ![](Resources/08-pcb-manufacturing.jpg)         | ![](Resources/10-pcb-assembly.jpg)              |
-
-| PCB Assembly                                    | PCB Assembly                                    |
-|-------------------------------------------------|-------------------------------------------------|
-| ![](Resources/11-pcb-assembly.jpg)              | ![](Resources/12-pcb-assembly.jpg)              |
-
-| Case 3D model                                   | Project Final                                   |
-|-------------------------------------------------|-------------------------------------------------|
-| ![](Resources/13-case-3d-model.jpg)             | ![](Resources/14-project-final.jpg)             |
-
-| Capacimeter (YouTube video)                     | Inductometer (YouTube video)                    |
-|-------------------------------------------------|-------------------------------------------------|
-| [![](Resources/15-capacimeter-test.jpg)](https://youtu.be/5dKCbQqo9p4) | [![](Resources/17-inductometer-test.jpg)](https://youtu.be/Jn29TbQ0DK8) |
-
-See 'Rescources' sub-folder for more pictures & videos of the project.
+See 'Rescources' sub-folder for details.
 
 &nbsp;
 
 ### Version History
 
-v1.0 (2024.03.02) - Initial release.  
-v1.1 (2024.03.03) - Adding case 3D model.  
-v1.2 (2024.03.09) - Pin position & component annotations improvements.
+v1.0 (2025.12.14) - Initial release.  
 
 &nbsp;
 
