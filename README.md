@@ -28,7 +28,7 @@ This is useful, for example, if you want to use an existing remote control with 
 
 This Arduino sketch is useful for determining the protocol (RC5, RC6-MCE, RC6-Generic, NEC, Samsung, JVC, Panasonic, Sharp, Denon, Sony) used by an infrared receiver.
 
-Connect the signal pin of an IR LED emitter to pin 7 of the Arduino. When executed, it will sequentially emit different commands for each of the supported protocols. The Arduino IDE's Serial Monitor will simultaneously display the different protocols, addresses, and emitted commands.  
+Connect the signal pin of an IR LED emitter to pin 7 of the Arduino (with a 220ohms resistor in series). When executed, it will sequentially emit different commands for each of the supported protocols. The Arduino IDE's Serial Monitor will simultaneously display the different protocols, addresses, and emitted commands.  
 I recommend leaving a text editor open with some static text (e.g., 1, 2, 3, 4, 5) in the foreground. Any action (typing a character, moving the cursor, pressing 'Enter') displayed in the text editor indicates the protocol. Then, by scanning through the different command codes for current protocol, you can determine which commands are recognized by the IR receiver.
 
 Useful, for example, if you want to reverse engineer a replacement remote control in case the original one breaks down.  
