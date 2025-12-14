@@ -34,7 +34,7 @@ Arduino code for ...
 
 | Receiver-Scanner breadboard                     | Receiver-Scanner output                         |
 |-------------------------------------------------|-------------------------------------------------|
-| ![](Resources/receiver-scanner-breadboard.jpg)  | ![](Resources/emiter-decoder-output.jpg)        |
+| ![](Resources/receiver-scanner-breadboard.jpg)  | ![](Resources/receiver-scanner-output.jpg)      |
 
 See 'Rescources' sub-folder for details.
 
